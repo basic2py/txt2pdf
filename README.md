@@ -1,9 +1,9 @@
 # txt2pdf
 text to pdf
-umentat
-in basic it was easy to create reports or csv files, i then needed to do a pdf or excel file from the report or csv file.
+-
+In basic it was easy to create reports or csv files, i then needed to do a pdf or excel file from the report or csv file.
 this is where python3 came into play. after some time looking, i just started to code what was needed.
-the program outlines install(s) needed.
+the program code outlines the needed install(s).
 
          txt2pdf.py - from one text file creates a pdf file.
 python3 txt2pdf.py /directory/filename.txt  /directory/filename.pdf
