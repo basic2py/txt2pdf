@@ -1,0 +1,21 @@
+#FILE --#KEY---------------------------------#I----------Revision Done? Y -|
+#FILE NAME   =abusedIPs *.*        #KEY 39 EXT:.DAT  #I  PP66$   68  (62)  |
+#DESCRIPTION =check system logs for abuse and add IP to file             #I|
+#FILE PERFORM=                                                       (62)  |
+#FILEUSED(62)=check_secure; *login.pxp                                     |
+#---#KEY 55 ---FILE (62)'abusedIPs.DAT'   ---#I---KEY 55, -----------------|
+#--------------------------------------------------------------------------|
+#KEY1  *.F62$[0]      Key value           S  X5-39  (key 15 to 39)   (62) I1.
+#KEY                                                                       |
+#Innn   Item ID       Description        DT  SZ            KEY     (SP,VL) |
+#I-------------------------------------------------------------------------|
+#I  1. F62$[0]        key value           S  X5-15         K1    USE_IP$   |
+#I. 0.0.0.0 to 256.256.256.256                                             |
+#I  2. F62$[1]        NumberOfTriesBefore S  X1-4                NOIP$     |
+#I  3. F62$[2]        Blocked IP          S  X1-3                YNIP$     |
+#I  4. F62$[3]        Short Date DMYY     S  X4-4                DB$       |
+#I  5. F62$[4]        Port                S  X1-5                PORT$     |
+#I  6. F62$[5]        abuseConfidenceScoreS  X1-3                IPSCORE$  |
+#I  7. F62$[6]        country             S  X2-2                IPCOUNTRY$|
+#I------------------------------------------------------------(  68)-------|
+# <EOR>                                                                     

@@ -1,0 +1,22 @@
+#FILE --#KEY---------------------------------#I----------Revision Done? Y -|
+#FILE NAME   =aIPinfo   *.*        #KEY 39 EXT:.DAT  #I  PP63$  300  (63)  |
+#DESCRIPTION =check IPinfo log data                                      #I|
+#FILE PERFORM=                                                       (63)  |
+#FILEUSED(62)=check_secure; *login.pxp                                     |
+#---#KEY 55 ---FILE (62)'aIPinfo.DAT'     ---#I---KEY 55, -----------------|
+#--------------------------------------------------------------------------|
+#KEY1  *.F63$[0]      User IP value       S  X5-39  (key 15 to 39)   (63) I1.
+#KEY                                                                       |
+#Innn   Item ID       Description        DT  SZ            KEY     (SP,VL) |
+#I-------------------------------------------------------------------------|
+#I  1. F63$[0]        User IP value       S  X5-39         K1   USE_IP$    |
+#I. 0.0.0.0 to 256.256.256.256                                             |
+#I  2. F63$[1]        Hostname            S  X1-99              HOSTNAME$  |
+#I  3. F63$[2]        City                S  X1-25              CITY$      |
+#I  4. F63$[3]        Region              S  X1-25              REGION$    |
+#I  5. F63$[4]        Country             S  X1-25              COUNTRY$   |
+#I  6. F63$[5]        TimeZone            S  X1-25              TIMEZONE$  |
+#I  7. F63$[6]        Log Date            S  X-DDMMYYYY         IPDATE$    |
+#I  8. F63$[7]        Log Time            S  X-00:00:00.000     IPTIME$    |
+#I------------------------------------------------------------( 300)-------|
+# <EOR>                                                                     
