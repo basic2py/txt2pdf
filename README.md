@@ -13,6 +13,7 @@ python3 txtdir2pdf.py /directory/txt_files/ /pdf/output.pdf
 
         txtdoc2pdf.py - from documentation directory create a pdf file with page links. (need txtflg2pdf.py for this program)
 python3 txtdoc2pdf.py /directory/txt_files/ /pdf/output.pdf
+          (the aIPinfo.TXT and abusedIPs.TXT are sample files )
 
         csv2xlsx.py - from csv create a xlsx file  
 python3 csv2xlsx.py /input/file.csv /output/file.xlsx
