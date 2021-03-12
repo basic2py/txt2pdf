@@ -7,7 +7,7 @@
 #                                                                             |
 # python3 txtdoc2pdf.py /home/pp/txt/ DOC.pdf                                 |
 #                       sys.argv[1]   sys.argv[2]                             |
-import sys
+import os,sys
 
 num_arg = len(sys.argv)
 if num_arg != 3: 
